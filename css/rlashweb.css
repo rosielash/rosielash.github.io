@@ -1,0 +1,24 @@
+h1 {
+	color:#fff;
+	font-family:HELVETICA;
+	font-weight:900;
+	
+}
+.jumbotron {
+background-image: url("../img/contact.jpg");
+background-size: cover;
+}
+
+.carousel-caption{
+  padding-bottom: 300px;
+}
+
+.carousel {
+  max-height: 700px;
+  overflow: hidden;
+
+  .item img {
+    width: 100%;
+    height: auto;
+  }
+}
