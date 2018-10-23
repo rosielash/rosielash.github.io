@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
+
 		<!-- Required meta tags -->
 		<title>Rosalina Lash| Front-end Web Developer</title>
 		<meta charset="utf-8">
@@ -83,8 +84,10 @@
 			  <div class="card">
 				<img class="card-img-top" src="./img/skills1.JPG" alt="Card image cap">
 				<div class="card-body">
-				  <h5 class="card-title">Skills</h5>
-				  <p class="card-text">Bootstrap, JavaScript, Python, HTML, CSS</p>
+				<h5 class="card-title">Do you wanna go do karate in the garage?</h5>
+				<button type="button" class="btn btn-secondary popover-dismiss" data-container="body" data-toggle="popover" data-placement="top" data-content="JavaScript, jQuery, Bootstrap, HTML, CSS">
+				Skills
+				</button>
 				</div>
 				<div class="card-footer">
 				  <small class="text-muted">Last updated 3 mins ago</small>
@@ -93,8 +96,10 @@
 			  <div class="card">
 				<img class="card-img-top" src="./img/skills4.JPG" alt="Card image cap">
 				<div class="card-body">
-				  <h5 class="card-title">Databases</h5>
-				  <p class="card-text">MySQL</p>
+				  <h5 class="card-title">Did you touch my drumset?</h5>
+				 <button type="button" class="btn btn-secondary popover-dismiss" data-container="body" data-toggle="popover" data-placement="top" data-content="MySQL">
+				Databases
+				</button>
 				</div>
 				<div class="card-footer">
 				  <small class="text-muted">Last updated 3 mins ago</small>
@@ -103,8 +108,10 @@
 			  <div class="card">
 				<img class="card-img-top" src="./img/skills3.JPG" alt="Card image cap">
 				<div class="card-body">
-				  <h5 class="card-title">Projects</h5>
-				  <p class="card-text">Yadda Yaddaaaa Yadda</p>
+				  <h5 class="card-title">Did we just become best friends!?</h5>
+				 <button type="button" class="btn btn-secondary popover-dismiss" data-container="body" data-toggle="popover" data-placement="top" data-content="rosielash.github.io, Basic-HTML-CSS-Project">
+				Projects
+				</button>
 				</div>
 				<div class="card-footer">
 				  <small class="text-muted">Last updated 3 mins ago</small>
@@ -119,9 +126,10 @@
 		<section id="contact">
 		<div class="jumbotron">
 			<h1 class="display-4">Contact Me!</h1>
-				<a href="https://www.linkedin.com/in/rosalina-d-lash" target="_blank" class="badge badge-secondary">LinkedIn</a>
-				<a href="https://github.com/rosielash" target="_blank" class="badge badge-secondary">GitHub</a>
-
+				<a class="btn btn-secondary" href="https://www.linkedin.com/in/rosalina-d-lash" target="_blank" role="button">LinkedIn</a>
+				<a class="btn btn-secondary" href="https://github.com/rosielash" target="_blank" role="button">GitHub</a>				
+				
+		
 		</div>
 		</section>	
 					
@@ -142,5 +150,11 @@
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+		
+		<script>
+		$('.popover-dismiss').popover({
+			trigger: 'focus'
+		})	
+		</script>
    </body>
 </html>
